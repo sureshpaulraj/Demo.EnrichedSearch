@@ -78,8 +78,7 @@ stages:
       vmImage: 'ubuntu-latest'
     environment: dev
     variables:
-    - group: Release
-    - group: EnrichedSearch
+    - group: EnrichedSearch    
     strategy:
       runOnce:
         deploy:
